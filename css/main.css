@@ -1,0 +1,429 @@
+body{
+    background-color: #F5F5F5;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+ul{
+    list-style-type:none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* start header */
+.navbar{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 20px;
+    z-index: 99999;
+}
+.navbar-nav .nav-item a{
+    color: #fff;
+    margin-right: 20px;
+}
+.navbar-nav .dropdown-menu:hover .dropdown-toggle{
+display:block;
+}
+.navbar-nav a:hover{
+    text-decoration: underline;
+}
+.dropdown-item{
+color: #000 !important;
+}
+.dropdown-item:hover{
+    color:#09c !important;
+    text-decoration: none !important;
+}
+.navbar-brand{
+    font-size: 1.7rem;
+}
+.main-header{
+    background-image:url(../devfolio/intro-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.slider{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.slider h2{
+    font-size: 4.5rem;
+    color:#fff;
+    line-height: 86px;
+}
+.slider p{
+    font-size:2.6rem;
+    color: #fff;
+    line-height: 60px;
+}
+.typing{
+   font-size: 2.6rem;
+    color:#fff;
+    line-height: 86px;
+}
+.typing::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: all 5s;
+}
+@keyframes typing{
+    0%{content: "De|";}
+    1.5%{content: "Des|";}
+    3%{content: "Desi|";}
+    4.5%{content: "Desig|";}
+    6%{content: "Design|";}
+    7.5%{content: "Designe|";}
+    9%{content: "Designer|";}
+    1.5%{content: "Designe|";}
+    13%{content: "Design|";}
+    14.5%{content: "Desig|";}
+    16%{content: "Desi|";}
+    17.5%{content: "Des|";}
+    19%{content: "De|";}
+    20.5%{content: "Dev|";}
+    22%{content: "Deve|";}
+    23.5%{content: "Devel|";}
+    25%{content: "Develo|";}
+    26.5%{content: "Develop|";}
+    28%{content: "Develope|";}
+    29.5%{content: "Developer|";}
+    31%{content: "Develope|";}
+    32.5%{content: "Develop|";}
+    34%{content: "Develo|";}
+    35.5%{content: "Devel|";}
+    37%{content: "Deve|";}
+    38.5%{content: "Dev|";}
+    39%{content: "De|";}
+    40.5%{content: "D|";}
+    42%{content: "|";}
+    43.5%{content: "F|";}
+    45%{content: "Fr|";}
+    46.5%{content: "Fre|";}
+    48%{content: "Free|";}
+    49.5%{content: "Freel|";}
+    51%{content: "Freela|";}
+    52.5%{content: "Freelan|";}
+    54%{content: "Freelanc|";}
+    55.5%{content: "Freelance|";}
+    57%{content: "Freelancer|";}
+    58.5%{content: "Freelance|";}
+    60%{content: "Freelanc|";}
+    61.5%{content: "Freelan|";}
+    63%{content: "Freela|";}
+    64.5%{content: "Freel|";}
+    66%{content: "Free|";}
+    67.5%{content: "Fre|";}
+    69%{content: "Fr|";}
+    70.5%{content: "F|";}
+    72%{content: "|";}
+    73.5%{content: "P|";}
+    75%{content: "Ph|";}
+    76.5%{content: "Pho|";}
+    78%{content: "Phot|";}
+    79.5%{content: "Photo|";}
+    81%{content: "Photog|";}
+    82.5%{content: "Photogr|";}
+    84%{content: "Photogra|";}
+    85.5%{content: "Photograp|";}
+    87%{content: "Photographe|";}
+    90%{content: "Photographer|";}
+    91%{content: "Photographe|";}
+    92%{content: "Photograph|";}
+    93%{content: "Photograp|";}
+    94%{content: "Photogra|";}
+    95%{content: "Photogr|";}
+    96%{content: "Photog|";}
+    97%{content: "Photo|";}
+    98%{content: "Phot|";}
+    99%{content: "Pho|";}
+    99.5%{content: "Ph|";}
+    100%{content: "P|";}
+    100%{content: "|";}
+}
+/* end header */
+
+
+/* start sections */
+/* start section one */
+#about{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.section-one-info h2{
+    color: #1e1e1e;
+    font-size: 2rem;
+    line-height: 38px;
+}
+.section-one-info p{
+    color:#4e4e4e;
+    font-size:1.3rem ;
+    line-height: 30px;
+}
+.line1{
+    height: 2px;
+    width: 20%;
+    background-color: #60ABFF;
+}
+/* end section one */
+/* start section two */
+
+.section-two h2{
+    font-size: 3rem;
+    line-height: 58px;
+    color:#1e1e1e;
+}
+ .line2{
+    height: 4px;
+    width: 5%;
+    background-color: #0078FF;
+}
+.section-two .card{
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+.section-two .card h5{
+    font-size: 1.4rem;
+    color: #1e1e1e;
+}
+.section-two .card p{
+    color:#4e4e4e
+}
+.section-two .card i{
+    font-size: 2.6rem;
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+    padding: 25px;
+    transition: all 0.3s;
+}
+.section-two .card:hover i{
+    background-color:#0078FF ;
+    color: #fff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+.section-two .card{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+/* end section two */
+/* start section three */
+.section-three{
+    background-image: url(../devfolio/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-three-items{
+    background-color: rgba(39, 120, 213,0.5);
+    width: 100%;
+    padding: 150px 0;
+}
+.section-three-items i{
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    color: #fff;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+/* end section three */
+/* start section four */
+.section-four .card{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.section-four h2{
+    font-size: 3rem;
+    line-height: 58px;
+    color: #1e1e1e;
+}
+.section-four .card-hover img{
+    overflow: hidden;
+    transition: all 1s;
+}
+.section-four .card-hover:hover img{
+    transform: scale(1.2);
+}
+
+.section-four .icon-plus a i{
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    border:3px solid #0078FF ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-four .icon-plus i{
+    color: #0078ff !important;
+}
+.section-four .icon-plus a:hover {
+    text-decoration: none;
+}
+/* end section four */
+/* start section five */
+.section-five{
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.carousel{
+    background-color: rgba(39, 120, 213,0.5);
+    width: 100%;
+    padding: 150px 0;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-item img{
+    width: 150px;
+    height: 150px;
+}
+.carousel-indicators{
+    bottom: 100px;
+}
+/* end section five */
+/* start section six */
+.section-six-intro h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.section-six .card-title a{
+    color: #222;
+    font-size: 1.5rem;
+    transition: all 1s;
+
+}
+.section-six .card-title a:hover,.section-six .post-author a:hover{
+    text-decoration: none;
+    color:#0078FF ;
+}
+.section-six .post-author img{
+    width: 30px;
+    width: 30px;
+    margin-right: 3px;
+}
+.card-body{
+    position: relative;
+}
+.card-blog .card-category-box{
+    position:absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+}
+.card-blog .card-category{
+    display: inline-block;
+    background-color: #0078FF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.card-blog .card-category h6{
+    font-size: 0.8rem;
+}
+.section-six .post-author span{
+    color: #222;
+    transition: all 1s;
+}
+.section-six .post-author:hover span{
+    color: #0078FF;
+}
+/* end section six */
+/* start secton seven */
+.section-seven{
+    background-image: url(../devfolio/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.layer{
+    background-color: rgba(39, 120, 213,0.5);
+    width: 100%;
+    padding: 150px 0;
+}
+.text-shadow{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.section-seven form button{
+    font-size: 1.2rem;
+    transition: all 0.7s;
+}
+.section-seven form button:hover{
+    background-color: #0078FF;
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+.section-seven-info p{
+    font-size: 1.3rem;
+    color: #4e4e4e;
+}
+.section-seven-info ul li i{
+    color: #0078FF;
+    padding-right: 8px;
+}
+.section-seven-info .socials i{
+    font-size: 1.3rem;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    border: 3px solid #0078FF;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.section-seven-info .socials li:hover i{
+    color: #fff;
+    background-color: #0078FF;
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+.section-seven-info .socials li:hover a{
+    text-decoration: none;
+}
+/* end section seven */
+/* end sections */
+/* start footer */
+footer{
+    background-color: #0062d3;
+}
+footer a:hover{
+text-decoration: none;
+}
+.arrow{
+    
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+}
+
+/* end footer */
+
+
+@media screen and (max-width:600px){
+    html{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
